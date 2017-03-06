@@ -1,0 +1,160 @@
+/*
+* @Author: kk
+* @Date:   2017-02-26 18:24:09
+* @Last Modified by:   kk
+* @Last Modified time: 2017-03-02 13:54:38
+*/
+
+.summary-list {
+  .item {
+    h4 {
+      margin: 20px 0 40px;
+      font-size: 24px;
+    }
+    p {
+      line-height: 2em;
+      color: #999;
+    }
+    h5{
+      margin: 20px 0;
+      font-size: 18px;
+    }
+  }
+  .bg-img {
+    display: block;
+    margin: 0 auto;
+    width: 100px;
+  }
+}
+
+.main {
+  .lg-title {
+    font-size: 48px;
+  }
+  .title {
+    font-size: 36px;
+    line-height: 1.5;
+  }
+  .item-title {
+    font-size: 36px;
+    color: #fff;
+  }
+  .banner-title {
+    font-size: 48px;
+    color: #fff;
+  }
+  .banner-sm-title {
+    margin-bottom: 40px;
+    font-size: 18px;
+    line-height: 36px;
+    color: #fff;
+  }
+  .case-title {
+    font-size: 30px;
+  }
+}
+
+.fqa-list {
+  border-bottom: 1px solid #d7d7d7;
+  padding: 10px 0;
+  text-align: left;
+  p {
+    margin: 0;
+    font-size: 16px;
+    line-height: 42px;
+  }
+  .question-content {
+    display: none;
+  }
+  i {
+    float: right;
+    border: 1px solid #fff;
+    margin: 0 40px;
+    padding: 10px;
+    font-size: 24px;
+    &:hover {
+      border: 1px solid;
+      color: #e60000;
+    }
+  }
+  cursor: pointer;
+}
+
+.assist-answer .active i {
+  border: 1px solid;
+  color: #e60000;
+}
+
+.assist-answer .current .question-content {
+  display: block;
+}
+
+/* 面包屑 */
+
+.breadcrumb {
+  background-color: #fff;
+  a {
+    color: #333;
+  }
+  .current {
+    color: #999;
+  }
+}
+
+.breadcrumb>li+li:before {
+  color: #333;
+  content: ">";
+}
+
+
+/* 文章 */
+
+.article {
+  .article-header {
+    h1 {
+      margin: 10px 0;
+      font-size: 28px;
+      text-align: center;
+    }
+  }
+  .article-from {
+    text-align: center;
+    color: #999;
+    span {
+      display: inline-block;
+      margin-right: 30px;
+      line-height: 32px;
+      vertical-align: top;
+    }
+  }
+  .article-content{
+    margin-bottom:80px;
+    padding:0 15px;
+  }
+  .article-content img {
+    display: block;
+    margin: 25px auto;
+    width: 550px;
+    height: 320px;
+  }
+  .article-content p {
+    margin-bottom: 25px;
+    font-size: 16px;
+    line-height: 36px;
+    text-indent: 2em;
+  }
+  .article-content h4{
+    margin:20px 0;
+    font-size: 24px;
+  }
+}
+/* 按钮 */
+.btn-red{
+  padding: 8px 30px;
+  font-size: 16px;
+  background:#e72b33;
+  &:hover{
+    border-color: #666;
+    background: #666;
+  }
+}

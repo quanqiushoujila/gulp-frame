@@ -1,0 +1,86 @@
+/*
+* @Author: kk
+* @Date:   2017-02-25 14:52:55
+* @Last Modified by:   kk
+* @Last Modified time: 2017-03-02 13:49:39
+*/
+
+body {
+  font-family: 'Microsoft YaHei', "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+a,
+a:hover,
+a:focus {
+  text-decoration: none;
+}
+
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden;
+}
+
+.clearfix {
+  zoom: 1;
+}
+
+.text-hidden {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.wh {
+  color: #fff;
+}
+
+.dib {
+  display: inline-block;
+}
+
+.oh {
+  overflow: hidden;
+}
+
+.ml57 {
+  margin-left: 50px;
+}
+
+.mb30 {
+  margin-bottom: 30px;
+}
+
+.f16 {
+  font-size: 16px;
+}
+
+.mr10 {
+  margin-right: 10px;
+}
+
+.mt30 {
+  margin-top: 30px;
+}
+
+.ml5 {
+  margin-left: 5px;
+}
+
+.dn {
+  display: none;
+}
